@@ -1,0 +1,116 @@
+*{
+  box-sizing:border-box;  
+    
+}
+/* html{overflow:scroll;} */
+.background{
+    background-image:url("img.jpg");
+        
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.header{
+    width:auto;
+    height:60px;
+    background-color:rgba(240,240,240,0.9);
+    margin: 0;
+}
+ul{
+    border:solid;
+    background-color:rgba(240,240,240,0.7);
+    border-radius: 25px 0px 25px 0;
+    box-sizing:border-box;
+    text-align:center;
+    margin-top:20px;
+    margin-left:40px;
+    border-width:thick;
+    border-color:black;
+    height:400px;
+    width:250px;
+    
+    
+    
+}
+li a{
+     text-decoration:none;
+     color: black;
+     font-size:25px;
+     display:block;
+    text-align:center;
+    justify-content: center;
+    
+}
+li a:hover{
+    text-decoration:none;
+    color: black;
+    font-size:25px;
+    background-color:red;
+    display:block;
+}
+
+ li{
+    list-style-type:none;
+    padding: 15px;
+    
+}
+
+/*content*/
+.content{
+    
+    color: red;
+    content:'';
+    clear:both;
+    display:table;
+    background-color:beige;
+    margin-top:20px;
+    margin-left:80px;}
+ .clearfix::after{
+    content:"";
+    clear:both;
+    display:table;
+    
+}
+hr.horizntl{
+    border: 1px solid black;
+}
+
+
+
+
+/*page title color */
+.h1{
+    color:black;
+}
+.img{z-index: 1;}
+
+
+/*.slide{
+    animation-name:slide;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes slide{
+    from{left:0px;}
+    to{right:100px}
+}*/
+
+
+div img.img:hover{
+    border: 1px solid black;
+}
+
+
+.h3{
+    text-align:center;
+    background-color:darkolivegreen;
+    margin:0 60px 0;
+    color:beige;
+
+}
+   .btt{
+    background-color:chartreuse;
+}
+
+
+
